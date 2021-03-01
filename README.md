@@ -1,4 +1,4 @@
-# Towards Effective Deep Transfer via Attentive Feature Alignment
+## Towards Effective Deep Transfer via Attentive Feature Alignment
 
 We provide PyTorch implementation for "Towards Effective Deep Transfer via Attentive Feature Alignment".
 
