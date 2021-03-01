@@ -1,0 +1,45 @@
+# ------------- data options ----------------------------------------
+target_dataset = "Stanford_Dogs"  # MIT_Indoors_67, Stanford_Dogs, Caltech_256-30, Caltech_256-60, CUB-200-2011, Food-101
+target_data_dir = "/mnt/ssd/datasets/Fine-Grained_Recognition" # dataset dir
+
+
+# ------------- general options -------------------------------------------
+outpath = "./exp_log_mobilenet"
+gpu_id = "1"       # single-gpu
+print_freq = 10
+batch_size = 64
+num_workers = 4
+exp_id = "first_stage"
+
+
+# ------------- common optimization options ----------------------------
+seed = 1
+repeat = 1
+lr = 0.01             # 0.01 for resnet101, 0.001 for inception_v3
+max_iter = 4500       # 9000, 6000 decay
+momentum = 0.9
+weight_decay = 0      # 1e-4 for reg_type='l2', 0 for others
+gamma = 0.1
+
+
+# ------------- model options ------------------------------------------
+base_task = "imagenet"            # imagenet, places365
+base_model_name = "mobilenet_v2"     # inception_v3, resnet101, resnet50, mobilenet_v2
+image_size = 224                  # 299 for inception_v3, 224 for resnet101
+data_aug = "default"              # default
+
+
+# ------------- finetuning options ------------------------------------------
+alpha = 9e-2        # 1.0, 0.1, 0.01 ...
+beta = 0.01
+reg_type = "pixel_att_fea_map_learn"  # att_fea_map, pixel_att_fea_map_learn, channel_att_fea_map_learn
+loss_type = "CrossEntropyLoss"       # CrossEntropyLoss, loss_label_smoothing
+lr_scheduler = "steplr"              # coslr, steplr
+channel_weight_path = ""
+
+pre_trained_path = ""
+
+
+# ------------- resume or retrain options ------------------------------
+pretrain_path = ""
+resume = ""
