@@ -51,7 +51,7 @@ We provide PyTorch implementation for "Towards Effective Deep Transfer via Atten
 ## Pre-trained Model
 
 
- | Model | Link| ACC (%)|
+ | Model | Link| Top1 Acc (%)|
    | :-: | :-: | :-: |
  |ResNet101|https://github.com/xiezheng-cs/AFA/releases/tag/models| 90.22|
  |MobileNetV2|https://github.com/xiezheng-cs/AFA/releases/tag/models| 82.17|
