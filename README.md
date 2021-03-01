@@ -69,6 +69,8 @@ If this work is useful for your research, please cite our paper:
     @InProceedings{xie2021afa,
     title = {Towards Effective Deep Transfer via Attentive Feature Alignment},
     author = {Zheng Xie, Zhiquan Wen, Yaowei Wang, Qingyao Wu, and Mingkui Tan},
-    booktitle = {Neural Networks},
+    journal = {Neural Networks},
+    volume = {138},
+    pages = {98-109},
     year = {2021}
     }
