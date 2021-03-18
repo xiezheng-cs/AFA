@@ -1,6 +1,6 @@
 # Towards Effective Deep Transfer via Attentive Feature Alignment
 
-We provide PyTorch implementation for "Towards Effective Deep Transfer via Attentive Feature Alignment".
+We provide PyTorch implementation for "Towards Effective Deep Transfer via Attentive Feature Alignment" (NN2021).
 
 <p align="center">
 <img src="framework.png" alt="AFA" width="90%" align=center />
