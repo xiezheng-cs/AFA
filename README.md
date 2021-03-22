@@ -18,7 +18,7 @@ We provide PyTorch implementation for "Towards Effective Deep Transfer via Atten
 1. Clone this repo:
 
         git clone https://github.com/xiezheng-cs/AFA.git
-        cd DTQ
+        cd AFA
 
 2. Install pytorch and other dependencies.
 
